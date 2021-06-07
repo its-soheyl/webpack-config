@@ -1,3 +1,5 @@
+import './styles/index.scss';
+
 const myCar = {
   made: 'ford',
   model: 'Mustang',
