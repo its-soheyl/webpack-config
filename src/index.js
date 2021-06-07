@@ -4,4 +4,10 @@ const myCar = {
   year: 1968,
 };
 
+const myNewCar = {
+  ...myCar,
+  color: 'red',
+};
+
 console.log(myCar);
+console.log(myNewCar);
